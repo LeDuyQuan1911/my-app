@@ -1,0 +1,19 @@
+/* PSPDFKitCustom.css */
+
+.PSPDFKit-Toolbar {
+    position: fixed;
+    right: 0;
+    top: 45px;
+    bottom: 0;
+    width: 80px; /* Hoặc bất kỳ chiều rộng nào bạn muốn */
+    height: 650px;
+    z-index: 1000; /* Đảm bảo navbar nằm trên các yếu tố khác */
+    display: flex;
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex-direction: column;
+  
+    /* Thêm các thuộc tính CSS khác nếu cần */
+  }
+  
+  

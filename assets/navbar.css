@@ -1,0 +1,14 @@
+/* assets/navbar.css */
+
+.PSPDFKit-Toolbar {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 60px; /* Hoặc chiều rộng mong muốn */
+    display: flex;
+    flex-direction: column;
+    z-index: 100; /* Đảm bảo navbar nằm trên các thành phần khác */
+    /* Thêm bất kỳ thuộc tính CSS khác nếu cần */
+  }
+  
